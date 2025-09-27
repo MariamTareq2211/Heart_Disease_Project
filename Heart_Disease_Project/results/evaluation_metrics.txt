@@ -1,0 +1,9 @@
+Final Model: Random Forest
+ROC AUC: 0.9470
+
+Classification Report:
+0: {'precision': 0.9666666666666667, 'recall': 0.8787878787878788, 'f1-score': 0.9206349206349206, 'support': 33.0}
+1: {'precision': 0.8709677419354839, 'recall': 0.9642857142857143, 'f1-score': 0.9152542372881356, 'support': 28.0}
+accuracy: 0.9180327868852459
+macro avg: {'precision': 0.9188172043010753, 'recall': 0.9215367965367965, 'f1-score': 0.9179445789615281, 'support': 61.0}
+weighted avg: {'precision': 0.922739291380222, 'recall': 0.9180327868852459, 'f1-score': 0.9181650987708225, 'support': 61.0}
