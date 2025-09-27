@@ -5,36 +5,8 @@ It includes **data preprocessing, feature selection, supervised learning, cluste
 
 ---
 
-## 📂 Project Structure
 
-Heart_Disease_Project/
-│
-├── data/ # Dataset files
-│ ├── heart_disease.csv # Raw Cleveland dataset (converted to CSV)
-│ ├── heart_disease_cleaned.csv # Cleaned dataset
-│ └── heart_disease_reduced.csv # Dataset with selected features
-│
-├── models/ # Saved models
-│ ├── best_model_name.txt # Stores best model name from tuning
-│ └── final_model.pkl # Exported trained pipeline
-│
-├── results/ # Evaluation outputs
-│ └── evaluation_metrics.txt # Performance metrics of final model
-│
-├── notebooks/ # Jupyter notebooks
-│ ├── 01_data_preprocessing.ipynb
-│ ├── 02_pca.ipynb
-│ ├── 03_feature_selection.ipynb
-│ ├── 04_supervised_learning.ipynb
-│ ├── 05_clustering.ipynb
-│ ├── 06_hyperparam_tuning.ipynb
-│ └── 07_model_export.ipynb
-│
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
-
-🚀 Workflow
+# 🚀 Workflow
 1. Data Preprocessing & Cleaning
 
 Handles missing values
@@ -111,7 +83,7 @@ Saves evaluation metrics → results/evaluation_metrics.txt
 
 📓 Notebook: 07_model_export.ipynb
 
-📊 Results
+# 📊 Results
 
 The pipeline identifies the best-performing model for predicting heart disease.
 
@@ -133,7 +105,7 @@ sample = [[63, 145, 233, 1, 0, 150, 0, 2.3, 0, 0, 1]]  # Replace with real featu
 prediction = model.predict(sample)
 print("Prediction:", "Heart Disease" if prediction[0] == 1 else "No Heart Disease")
 
-📌 Requirements
+#📌 Requirements
 
 See requirements.txt
 :
